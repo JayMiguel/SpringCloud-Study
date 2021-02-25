@@ -17,6 +17,12 @@
     </properties>
 
     <dependencies>
+        <!--feign-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-feign</artifactId>
+            <version>1.4.6.RELEASE</version>
+        </dependency>
         <!--ribbon-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
