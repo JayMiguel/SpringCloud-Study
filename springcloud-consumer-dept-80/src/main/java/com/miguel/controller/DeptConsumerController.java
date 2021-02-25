@@ -17,7 +17,7 @@ public class DeptConsumerController {
 
     // 负载均衡时，地址不能写死
     // private static final String REST_URL_PREFIX = "http://localhost:8001";
-    private static final String REST_URL_PREFIX = "http://SPRINGCLOUD-PROVIDER-DEPT";
+    private static final String REST_URL_PREFIX = "http://SPRINGCLOUD-PROVIDER-DEPT"; //通过服务名访问
 
     @RequestMapping("/consumer/dept/get/{id}")
     public Dept get(@PathVariable("id") Long id) {
